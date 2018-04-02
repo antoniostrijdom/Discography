@@ -12,10 +12,11 @@
 		831C61A820399EFC009B543D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831C61A620399EFC009B543D /* Main.storyboard */; };
 		831C61AA20399EFC009B543D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831C61A920399EFC009B543D /* Assets.xcassets */; };
 		831C61AD20399EFC009B543D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831C61AB20399EFC009B543D /* LaunchScreen.storyboard */; };
-		831C61B820399EFC009B543D /* NaimDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C61B720399EFC009B543D /* NaimDemoTests.swift */; };
-		831C61C320399EFC009B543D /* NaimDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C61C220399EFC009B543D /* NaimDemoUITests.swift */; };
+		831C61B820399EFC009B543D /* DiscographyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C61B720399EFC009B543D /* DiscographyTests.swift */; };
+		831C61C320399EFC009B543D /* DiscographyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C61C220399EFC009B543D /* DiscographyUITests.swift */; };
 		831C61D12039A1C8009B543D /* LibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C61D02039A1C8009B543D /* LibraryController.swift */; };
 		831C61D22039B18D009B543D /* LibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C61D02039A1C8009B543D /* LibraryController.swift */; };
+		8368AA27207260410049F00D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8368AA26207260410049F00D /* README.md */; };
 		836F2751203E09E1000DA227 /* DiscographyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F2750203E09E1000DA227 /* DiscographyViewController.swift */; };
 		836F2753203E13C7000DA227 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F2752203E13C7000DA227 /* AlbumCollectionViewCell.swift */; };
 		836F2755203E148F000DA227 /* TimelineHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F2754203E148F000DA227 /* TimelineHeaderReusableView.swift */; };
@@ -43,20 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		831C619F20399EFC009B543D /* NaimDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaimDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831C619F20399EFC009B543D /* Discography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discography.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831C61A220399EFC009B543D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		831C61A420399EFC009B543D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		831C61A720399EFC009B543D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		831C61A920399EFC009B543D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831C61AC20399EFC009B543D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		831C61AE20399EFC009B543D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		831C61B320399EFC009B543D /* NaimDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaimDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		831C61B720399EFC009B543D /* NaimDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaimDemoTests.swift; sourceTree = "<group>"; };
+		831C61B320399EFC009B543D /* DiscographyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscographyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		831C61B720399EFC009B543D /* DiscographyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscographyTests.swift; sourceTree = "<group>"; };
 		831C61B920399EFC009B543D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		831C61BE20399EFC009B543D /* NaimDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaimDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		831C61C220399EFC009B543D /* NaimDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaimDemoUITests.swift; sourceTree = "<group>"; };
+		831C61BE20399EFC009B543D /* DiscographyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscographyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		831C61C220399EFC009B543D /* DiscographyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscographyUITests.swift; sourceTree = "<group>"; };
 		831C61C420399EFC009B543D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831C61D02039A1C8009B543D /* LibraryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryController.swift; sourceTree = "<group>"; };
+		8368AA26207260410049F00D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		836F2750203E09E1000DA227 /* DiscographyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscographyViewController.swift; sourceTree = "<group>"; };
 		836F2752203E13C7000DA227 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
 		836F2754203E148F000DA227 /* TimelineHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineHeaderReusableView.swift; sourceTree = "<group>"; };
@@ -94,9 +96,9 @@
 		831C619620399EFB009B543D = {
 			isa = PBXGroup;
 			children = (
-				831C61A120399EFC009B543D /* NaimDemo */,
-				831C61B620399EFC009B543D /* NaimDemoTests */,
-				831C61C120399EFC009B543D /* NaimDemoUITests */,
+				831C61A120399EFC009B543D /* Discography */,
+				831C61B620399EFC009B543D /* DiscographyTests */,
+				831C61C120399EFC009B543D /* DiscographyUITests */,
 				831C61A020399EFC009B543D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,16 +106,17 @@
 		831C61A020399EFC009B543D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				831C619F20399EFC009B543D /* NaimDemo.app */,
-				831C61B320399EFC009B543D /* NaimDemoTests.xctest */,
-				831C61BE20399EFC009B543D /* NaimDemoUITests.xctest */,
+				831C619F20399EFC009B543D /* Discography.app */,
+				831C61B320399EFC009B543D /* DiscographyTests.xctest */,
+				831C61BE20399EFC009B543D /* DiscographyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		831C61A120399EFC009B543D /* NaimDemo */ = {
+		831C61A120399EFC009B543D /* Discography */ = {
 			isa = PBXGroup;
 			children = (
+				8368AA26207260410049F00D /* README.md */,
 				839285F3203CC4D700335DA8 /* ArtistController.swift */,
 				831C61D02039A1C8009B543D /* LibraryController.swift */,
 				831C61A220399EFC009B543D /* AppDelegate.swift */,
@@ -129,33 +132,33 @@
 				836F2756203E14E7000DA227 /* TimelineDecorationView.swift */,
 				836F2758203E1581000DA227 /* TimelineFlowLayout.swift */,
 			);
-			path = NaimDemo;
+			path = Discography;
 			sourceTree = "<group>";
 		};
-		831C61B620399EFC009B543D /* NaimDemoTests */ = {
+		831C61B620399EFC009B543D /* DiscographyTests */ = {
 			isa = PBXGroup;
 			children = (
-				831C61B720399EFC009B543D /* NaimDemoTests.swift */,
+				831C61B720399EFC009B543D /* DiscographyTests.swift */,
 				831C61B920399EFC009B543D /* Info.plist */,
 			);
-			path = NaimDemoTests;
+			path = DiscographyTests;
 			sourceTree = "<group>";
 		};
-		831C61C120399EFC009B543D /* NaimDemoUITests */ = {
+		831C61C120399EFC009B543D /* DiscographyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				831C61C220399EFC009B543D /* NaimDemoUITests.swift */,
+				831C61C220399EFC009B543D /* DiscographyUITests.swift */,
 				831C61C420399EFC009B543D /* Info.plist */,
 			);
-			path = NaimDemoUITests;
+			path = DiscographyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		831C619E20399EFB009B543D /* NaimDemo */ = {
+		831C619E20399EFB009B543D /* Discography */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 831C61C720399EFC009B543D /* Build configuration list for PBXNativeTarget "NaimDemo" */;
+			buildConfigurationList = 831C61C720399EFC009B543D /* Build configuration list for PBXNativeTarget "Discography" */;
 			buildPhases = (
 				831C619B20399EFB009B543D /* Sources */,
 				831C619C20399EFB009B543D /* Frameworks */,
@@ -165,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = NaimDemo;
+			name = Discography;
 			productName = NaimDemo;
-			productReference = 831C619F20399EFC009B543D /* NaimDemo.app */;
+			productReference = 831C619F20399EFC009B543D /* Discography.app */;
 			productType = "com.apple.product-type.application";
 		};
-		831C61B220399EFC009B543D /* NaimDemoTests */ = {
+		831C61B220399EFC009B543D /* DiscographyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 831C61CA20399EFC009B543D /* Build configuration list for PBXNativeTarget "NaimDemoTests" */;
+			buildConfigurationList = 831C61CA20399EFC009B543D /* Build configuration list for PBXNativeTarget "DiscographyTests" */;
 			buildPhases = (
 				831C61AF20399EFC009B543D /* Sources */,
 				831C61B020399EFC009B543D /* Frameworks */,
@@ -183,14 +186,14 @@
 			dependencies = (
 				831C61B520399EFC009B543D /* PBXTargetDependency */,
 			);
-			name = NaimDemoTests;
+			name = DiscographyTests;
 			productName = NaimDemoTests;
-			productReference = 831C61B320399EFC009B543D /* NaimDemoTests.xctest */;
+			productReference = 831C61B320399EFC009B543D /* DiscographyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		831C61BD20399EFC009B543D /* NaimDemoUITests */ = {
+		831C61BD20399EFC009B543D /* DiscographyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 831C61CD20399EFC009B543D /* Build configuration list for PBXNativeTarget "NaimDemoUITests" */;
+			buildConfigurationList = 831C61CD20399EFC009B543D /* Build configuration list for PBXNativeTarget "DiscographyUITests" */;
 			buildPhases = (
 				831C61BA20399EFC009B543D /* Sources */,
 				831C61BB20399EFC009B543D /* Frameworks */,
@@ -201,9 +204,9 @@
 			dependencies = (
 				831C61C020399EFC009B543D /* PBXTargetDependency */,
 			);
-			name = NaimDemoUITests;
+			name = DiscographyUITests;
 			productName = NaimDemoUITests;
-			productReference = 831C61BE20399EFC009B543D /* NaimDemoUITests.xctest */;
+			productReference = 831C61BE20399EFC009B543D /* DiscographyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -232,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 831C619A20399EFB009B543D /* Build configuration list for PBXProject "NaimDemo" */;
+			buildConfigurationList = 831C619A20399EFB009B543D /* Build configuration list for PBXProject "Discography" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -245,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				831C619E20399EFB009B543D /* NaimDemo */,
-				831C61B220399EFC009B543D /* NaimDemoTests */,
-				831C61BD20399EFC009B543D /* NaimDemoUITests */,
+				831C619E20399EFB009B543D /* Discography */,
+				831C61B220399EFC009B543D /* DiscographyTests */,
+				831C61BD20399EFC009B543D /* DiscographyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +262,7 @@
 			files = (
 				831C61AD20399EFC009B543D /* LaunchScreen.storyboard in Resources */,
 				831C61AA20399EFC009B543D /* Assets.xcassets in Resources */,
+				8368AA27207260410049F00D /* README.md in Resources */,
 				831C61A820399EFC009B543D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831C61B820399EFC009B543D /* NaimDemoTests.swift in Sources */,
+				831C61B820399EFC009B543D /* DiscographyTests.swift in Sources */,
 				831C61D22039B18D009B543D /* LibraryController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831C61C320399EFC009B543D /* NaimDemoUITests.swift in Sources */,
+				831C61C320399EFC009B543D /* DiscographyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,12 +323,12 @@
 /* Begin PBXTargetDependency section */
 		831C61B520399EFC009B543D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 831C619E20399EFB009B543D /* NaimDemo */;
+			target = 831C619E20399EFB009B543D /* Discography */;
 			targetProxy = 831C61B420399EFC009B543D /* PBXContainerItemProxy */;
 		};
 		831C61C020399EFC009B543D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 831C619E20399EFB009B543D /* NaimDemo */;
+			target = 831C619E20399EFB009B543D /* Discography */;
 			targetProxy = 831C61BF20399EFC009B543D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,9 +466,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR52V3W6H;
-				INFOPLIST_FILE = NaimDemo/Info.plist;
+				INFOPLIST_FILE = Discography/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.NaimDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.Discography;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,9 +481,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR52V3W6H;
-				INFOPLIST_FILE = NaimDemo/Info.plist;
+				INFOPLIST_FILE = Discography/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.NaimDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.Discography;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,13 +497,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR52V3W6H;
-				INFOPLIST_FILE = NaimDemoTests/Info.plist;
+				INFOPLIST_FILE = DiscographyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.NaimDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaimDemo.app/NaimDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discography.app/Discography";
 			};
 			name = Debug;
 		};
@@ -510,13 +514,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR52V3W6H;
-				INFOPLIST_FILE = NaimDemoTests/Info.plist;
+				INFOPLIST_FILE = DiscographyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.NaimDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaimDemo.app/NaimDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discography.app/Discography";
 			};
 			name = Release;
 		};
@@ -526,13 +530,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR52V3W6H;
-				INFOPLIST_FILE = NaimDemoUITests/Info.plist;
+				INFOPLIST_FILE = DiscographyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.NaimDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.DiscographyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NaimDemo;
+				TEST_TARGET_NAME = Discography;
 			};
 			name = Debug;
 		};
@@ -542,20 +546,20 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR52V3W6H;
-				INFOPLIST_FILE = NaimDemoUITests/Info.plist;
+				INFOPLIST_FILE = DiscographyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.NaimDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniostrijdom.DiscographyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NaimDemo;
+				TEST_TARGET_NAME = Discography;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		831C619A20399EFB009B543D /* Build configuration list for PBXProject "NaimDemo" */ = {
+		831C619A20399EFB009B543D /* Build configuration list for PBXProject "Discography" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831C61C520399EFC009B543D /* Debug */,
@@ -564,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		831C61C720399EFC009B543D /* Build configuration list for PBXNativeTarget "NaimDemo" */ = {
+		831C61C720399EFC009B543D /* Build configuration list for PBXNativeTarget "Discography" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831C61C820399EFC009B543D /* Debug */,
@@ -573,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		831C61CA20399EFC009B543D /* Build configuration list for PBXNativeTarget "NaimDemoTests" */ = {
+		831C61CA20399EFC009B543D /* Build configuration list for PBXNativeTarget "DiscographyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831C61CB20399EFC009B543D /* Debug */,
@@ -582,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		831C61CD20399EFC009B543D /* Build configuration list for PBXNativeTarget "NaimDemoUITests" */ = {
+		831C61CD20399EFC009B543D /* Build configuration list for PBXNativeTarget "DiscographyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831C61CE20399EFC009B543D /* Debug */,

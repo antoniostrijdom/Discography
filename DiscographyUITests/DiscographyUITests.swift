@@ -1,6 +1,6 @@
 //
-//  NaimDemoUITests.swift
-//  NaimDemoUITests
+//  DiscographyUITests.swift
+//  DiscographyUITests
 //
 //  Created by Antonio Strijdom on 18/02/2018.
 //  Copyright © 2018 Antonio Strijdom. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class NaimDemoUITests: XCTestCase {
+class DiscographyUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

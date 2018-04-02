@@ -1,4 +1,4 @@
-# NaimDemo: A demo of basic Apple Music integration
+# Discography: A demo of basic Apple Music integration
 
 This demo allows you to search for an artist and display their discography.
 

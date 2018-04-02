@@ -1,15 +1,15 @@
 //
-//  NaimDemoTests.swift
-//  NaimDemoTests
+//  DiscographyTests.swift
+//  DiscographyTests
 //
 //  Created by Antonio Strijdom on 18/02/2018.
 //  Copyright © 2018 Antonio Strijdom. All rights reserved.
 //
 
 import XCTest
-@testable import NaimDemo
+@testable import Discography
 
-class NaimDemoTests: XCTestCase {
+class DiscographyTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

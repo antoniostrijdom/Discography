@@ -1,6 +1,6 @@
 //
 //  LibraryController.swift
-//  NaimDemo
+//  Discography
 //
 //  Created by Antonio Strijdom on 18/02/2018.
 //  Copyright © 2018 Antonio Strijdom. All rights reserved.
